@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Marlon Morelli-Gastaud</title>
+    <link href="style.css" rel="stylesheet">
+    <style>
+        .video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -2;
+}
+
+
+#bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+}
+        </style>
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop id="bg-video">
+            <source src="Midnight Run. (R34 GTR, FD RX7, Evo and more)  Zhiyun Crane 3 Lab  4K.MOV" type="video/mp4">
+        </video>
+    </div>
+    <div class="overlay"></div>
+    <div class="content">
+        <header>
+            <h1>Bienvenue sur mon site</h1>
+            <p>Je suis Marlon Morelli-Gastaud, bienvenue dans mon univers en ligne.</p>
+        </header>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="CV interactif.html">CV Interactif</a></li>
+                <li><a href="presentation personelle.html">Présentation Personnelle</a></li>
+                <li><a href="galerie d'images.html">Galerie d'Images</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
